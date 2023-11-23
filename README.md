@@ -52,4 +52,4 @@ And the application is installed successfully
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Sanjana040703/MKSSS-s_Cummins_College_Team5_Currency-Conversion-Trends-Over-Time-A-Graphical-Approach/blob/master/Images/WhatsApp%20Image%202023-11-23%20at%2009.07.04_8e816e95.jpg)https://github.com/Sanjana040703/MKSSS-s_Cummins_College_Team5_Currency-Conversion-Trends-Over-Time-A-Graphical-Approach/blob/master/Images/WhatsApp%20Image%202023-11-23%20at%2009.07.04_8e816e95.jpg)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/Sanjana040703/MKSSS-s_Cummins_College_Team5_Currency-Conversion-Trends-Over-Time-A-Graphical-Approach/blob/master/Images/WhatsApp%20Image%202023-11-23%20at%2009.07.04_8e816e95.jpg)https://github.com/Sanjana040703/MKSSS-s_Cummins_College_Team5_Currency-Conversion-Trends-Over-Time-A-Graphical-Approach/blob/master/Images/WhatsApp%20Image%202023-11-23%20at%2009.07.04_8e816e95.jpg)
