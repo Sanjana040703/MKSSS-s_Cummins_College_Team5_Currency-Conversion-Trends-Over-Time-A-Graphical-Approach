@@ -49,6 +49,7 @@ And the application is installed successfully
 - [@vaishnavigaikwad2810](https://github.com/vaishnavigaikwad2810)
 - [@Sanjana040703](https://github.com/Sanjana040703)
 - [@niharikagurav](https://github.com/niharikagurav)
+- [@Aditipatil0201](https://github.com/Aditipatil0201)
 
 ## Screenshots
 
