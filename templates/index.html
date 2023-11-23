@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Currency Exchange Rate Analysis</title>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='style.css') }}"
+        />
+    </head>
+    <body>
+        <h1>Currency Exchange Rate Analysis</h1>
+        <form id="exchangeForm" action="/generate_graph" method="post">
+            <div class="currencySelection">
+                <label for="currency1">Select Currency 2...</label>
+                <select class="currency1" name="currency1">
+                    {% for column in column_names %}
+                    <option value="{{ column }}">{{ column }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="currencySelection">
+                <label for="currency2">Select Currency 2...</label>
+                <select class="currency2" name="currency2">
+                    {% for column in column_names %}
+                    <option value="{{ column }}">{{ column }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="durationSelection">
+                <label for="duration">Select Duration</label>
+                <select id="duration" name="duration">
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="quarterly">Quarterly</option>
+                    <option value="annual">Annual</option>
+                </select>
+            </div>
+
+            <div class="submitBtn">
+                <button type="submit">Generate Chart</button>
+            </div>
+        </form>
+
+        <div class="chartContainer">
+            {% if graph %}
+            <img
+                src="data:image/png;base64,{{ graph }}"
+                alt="Exchange Rate Graph"
+            />
+            {% endif %}
+        </div>
+    </body>
+</html>
